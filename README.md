@@ -1,10 +1,7 @@
 
 # IISOTOP1013合约极简教程
 
-## 用工厂合约创建NFT子合约
- ```javascript
-     const IISOTOP1013 = await ethers.getContractAt('IIsotopFactory',FactoryContractAddr);
- ```
+
  
 ### 1.  查询子合约地址 
 使用`getContractsDeployed()`方法获得NFT合约地址
